@@ -1,1 +1,6 @@
-<p>Soy un Empleado</p>
+<p>Nombre del Empleado {{nombre}}</p>
+<p>Apellido del Empleado {{Apellido}}</p>
+<p>Cargo del Empleado {{Cargo}}</p>
+<p>Edad del Empleado {{Edad}}</p>
+<p>Empresa del Empleado {{empresa.value}}</p>
+Ingresa el nombre de la Empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacioncuadro">

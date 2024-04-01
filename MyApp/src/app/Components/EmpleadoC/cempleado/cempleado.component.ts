@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./cempleado.component.css']
 })
 export class CEmpleadoComponent {
-
+  nombre = 'Martin ';
+  Apellido = "Cantillo";
+  Cargo = "Ingeniero de Softwate";
+  Edad = 21;
+  //Porperty  Binding
+  habilitacioncuadro = true;
 }
