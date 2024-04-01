@@ -22,4 +22,11 @@ export class CEmpleadoComponent {
 
   //two way binging -- Gnmodul
   empresaNgModel='default value';
+
+  //NgIf
+  registrado=false;
+
+  userRegistro(){
+    this.registrado=true;
+  }
 }
