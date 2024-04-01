@@ -16,4 +16,7 @@ Ingresa el nombre de la Empresa: <input type="text" #empresa (keyup)="0" [disabl
 <p>{{empresaNgModel}}</p>
 <h2>Ng if</h2>
 <button (click)="userRegistro()">Registrar </button>
-<p *ngIf="registrado"> Usuario registrado con Exito NgIf</p>
+<p *ngIf="registrado; else sinRegistrar">Usuario registrado con éxito usando NgIf</p>
+<ng-template #sinRegistrar>
+  <p>Nadie registrado</p>
+</ng-template>
