@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CEmpleadosComponent } from './Components/cempleados/cempleados.component';
 import { CEmpleadoComponent } from './Components/EmpleadoC/cempleado/cempleado.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CEmpleadoComponent } from './Components/EmpleadoC/cempleado/cempleado.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule// para poder usar  ngmodel
   ],
   providers: [],
   bootstrap: [AppComponent]
