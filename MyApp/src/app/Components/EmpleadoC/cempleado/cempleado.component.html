@@ -20,3 +20,7 @@ Ingresa el nombre de la Empresa: <input type="text" #empresa (keyup)="0" [disabl
 <ng-template #sinRegistrar>
   <p>Nadie registrado</p>
 </ng-template>
+<h3>Lista de Empleados</h3>
+<ul>
+  <li *ngFor="let item of employes">{{item.Cargos}}</li>
+</ul>
