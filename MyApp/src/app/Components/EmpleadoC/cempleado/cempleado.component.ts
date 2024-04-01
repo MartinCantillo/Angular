@@ -10,6 +10,11 @@ export class CEmpleadoComponent {
   Apellido = "Cantillo";
   Cargo = "Ingeniero de Softwate";
   Edad = 21;
-  //Porperty  Binding
+  //Porperty  Binding , la propiedad del html tiene que ir entre[] para que lo reconozca esta propiedad
   habilitacioncuadro = true;
+
+  //event binding
+  registrar(){
+    alert("El usuario se acaba de registrar");
+  }
 }
